@@ -3,7 +3,7 @@
   (c)2018-19 Pawel A. Hernik
   YouTube videos:
   ATmega: https://youtu.be/GHULqZpVpz4
-  STM32:
+  STM32: https://youtu.be/YsM7WqgUP8s
 */
 
 // Connections:
@@ -58,7 +58,9 @@ tm_t curTime;
 #define encoderPinA     PB4
 #define encoderPinB     PB5
 #define encoderButton   PB6
+
 #else // avr
+
 #define N5110_RST       9
 #define N5110_CS        10
 #define N5110_DC        8
